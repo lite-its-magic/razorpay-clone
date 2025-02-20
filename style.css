@@ -131,8 +131,8 @@ div.slow-image-scroller img{
 div.slow-image-scroller-text{
     font-family: sans-serif;
     position: absolute;
-    top: 108px;
-    right: 560px;
+    top: 124px;
+    right: 756px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
