@@ -131,32 +131,64 @@ div.slow-image-scroller img{
 div.slow-image-scroller-text{
     font-family: sans-serif;
     position: absolute;
-    top: 124px;
-    right: 756px;
+    top: 195px;
+    right: 722px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 624px;
     height: 233px;
 }
 
-div.slow-image-scroller-text div h2{
+div.slow-image-scroller-text1{
     height: 112px;
-    font-size: 48px;
-    
 }
 
-div.slow-image-scroller-text div h2 span{
+div.slow-image-scroller-text1 h2{
+    height: 112px;
+    font-size: 48px;
+    margin: 0px;
+}
+
+div.slow-image-scroller-text1 h2 span{
     width: 369.46px;
     height: 55.2px;
     color: rgb(48, 94,255);
 }
 
-div.slow-image-scroller-text div p{
+div.powerful{ 
     height: 20px;
 }
 
-div.slow-image-scroller-text div div.sign-up-now-button{
+div.powerful p{
+    margin: 0px;
+}
+
+div.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    width: 400px;
+    height: 48px;
+}
+
+div.know-more{
+    color: rgb(48, 94,255);
+    height: 24px;
+    font-weight: 600;
+}
+
+div.know-more a:hover{
+    color: rgb(48, 94,255);
+    height: 24px;
+    font-weight: 600;
+    text-decoration: underline ;
+}
+
+div.sign-up-now-button{
     background-color: rgb(48, 94,255);
     display: flex;
     justify-content: space-between;
@@ -169,13 +201,13 @@ div.slow-image-scroller-text div div.sign-up-now-button{
     font-weight: 600;
 }
 
-div.slow-image-scroller-text div div div.sign-up-now{
+div.sign-up-now{
     font-family: inherit;
     font-size: 17px;
     height: 24px;
 }
 
-div.slow-image-scroller-text div div div.svg-arrow{
+div.svg-arrow{
     height: 24px;
     padding-top: 3px;
     padding-left: 1px;
