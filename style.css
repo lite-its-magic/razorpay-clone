@@ -1,0 +1,270 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    height: 74px;
+}
+
+nav {
+    display: flex;
+    width: 1184px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 732px;
+}
+
+.div-razorpay-gif {
+    display: flex;
+    height: 74px;
+    align-items: center;
+}
+
+.div-razorpay-gif img {
+    width: 140px;
+    height: 30px;
+}
+
+.razorpay-gif {
+    width: 140px;
+}
+
+.nav-items-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: rgba(25, 40, 57, 1);
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 572px;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    width: 314.1px;
+    justify-content: space-between;
+}
+
+svg.headphone {
+    width: 24px;
+    height: 24px;
+}
+
+svg.downarrow {
+    width: 16px;
+    height: 16px;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 52px;
+}
+
+.india-flag {
+    width: 32px;
+    height: 28px;
+}
+
+.login {
+    background-color: white;
+    border: 1px rgb(41, 80, 218) solid;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(41, 80, 218);
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 36px;
+    width: 71.44px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48,94,255);
+    border-color: rgb(48,94,255);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 6px 17px;
+    width: 110.662px;
+    height: 36px;
+}
+
+.signup p{
+    width: 52.66px;
+    height: 20px;
+}
+
+svg.signup {
+    width: 12px;
+    height: 9.33px;
+}
+
+div.slow-image-scroller{
+    display: flex;
+    width: 1354px;
+    justify-content: right;
+    height: 520px;
+}
+
+div.slow-image-scroller img{
+    width: 900px;
+    height: 500px;
+}
+
+div.slow-image-scroller-text{
+    font-family: sans-serif;
+    position: absolute;
+    top: 108px;
+    right: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 624px;
+    height: 233px;
+}
+
+div.slow-image-scroller-text div h2{
+    height: 112px;
+    font-size: 48px;
+    
+}
+
+div.slow-image-scroller-text div h2 span{
+    width: 369.46px;
+    height: 55.2px;
+    color: rgb(48, 94,255);
+}
+
+div.slow-image-scroller-text div p{
+    height: 20px;
+}
+
+div.slow-image-scroller-text div div.sign-up-now-button{
+    background-color: rgb(48, 94,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 163.3px;
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+div.slow-image-scroller-text div div div.sign-up-now{
+    font-family: inherit;
+    font-size: 17px;
+    height: 24px;
+}
+
+div.slow-image-scroller-text div div div.svg-arrow{
+    height: 24px;
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
+div.im-here-to{
+    height: 60px;
+}
+
+div.img-slider1{
+    background-color: blue;
+    height: 140px;
+}
+
+div.advertisement{
+    height: 64px;
+}
+
+div.the-all-in-one{
+    height: 276px;
+}
+
+div.blankspace1{
+    height: 80px;
+}
+
+div.hardanimation1, div.hardanimation2, div.hardanimation3, div.hardanimation4, div.hardanimation5{
+    background-color: black;
+    height: 656px;
+}
+
+div.powering{
+    background-color: blue;
+    height: 940px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+div.we-have{
+    height: 918px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+div.img-slider2{
+    height: 1194.4px;
+    padding-top: 16px;
+    padding-bottom: 120px;
+}
+
+div.what-html{
+    height: 700px;
+}
+
+div.img-slider3{
+    height: 841px;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+div.support{
+    height: 324px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+div.supercharge{
+    height: 368px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+footer{
+    height: 1045px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 64px;
+    padding-bottom: 40px;
+}
+
+div.payment{
+    height: 48px;
+    padding-top: 14.4px;
+    padding-bottom: 14.4px;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-family: sans-serif;
+}
+
+div.payment div{
+    width: 1471.2px;
+}
