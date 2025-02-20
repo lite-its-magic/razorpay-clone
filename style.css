@@ -218,7 +218,6 @@ div.im-here-to{
 }
 
 div.img-slider1{
-    background-color: blue;
     height: 140px;
 }
 
@@ -235,12 +234,10 @@ div.blankspace1{
 }
 
 div.hardanimation1, div.hardanimation2, div.hardanimation3, div.hardanimation4, div.hardanimation5{
-    background-color: black;
     height: 656px;
 }
 
 div.powering{
-    background-color: blue;
     height: 940px;
     padding-top: 80px;
     padding-bottom: 80px;
